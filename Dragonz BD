@@ -1,4 +1,5 @@
 --moonseccant obfucate my script anymore idk why lol its not that big :/
+print("Sigma!")
 local CryLol = {};
 CryLol["1"] = Instance.new("ScreenGui",game:GetService('CoreGui'):WaitForChild('RobloxGui'));
 CryLol["1"]["IgnoreGuiInset"] = true;
@@ -1508,3 +1509,21 @@ end
 coroutine.wrap(pppp)()
 
 return CryLol["1"], require;
+local e = .1
+for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+	print("------------------------------[ !Made By Team Cry! ]------------------------------")
+	task.wait(e)
+	print("UserName : "..v.Name)
+	task.wait(e)
+	print("DisplayName : "..v.DisplayName)
+	task.wait(e)
+	print("Account Id : "..v.UserId)
+	task.wait(e)
+	print("Account Age : "..v.AccountAge)
+	task.wait(e)
+	print("User/"..v.Name.." Health : "..v.Character.Humanoid.Health)
+	task.wait(e)
+	print("User/"..v.Name.." Position : "..tostring(v.Character.HumanoidRootPart.Position))
+	task.wait(e)
+	print("------------------------------[ !Made By Team Cry! ]------------------------------")
+end
