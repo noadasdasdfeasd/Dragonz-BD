@@ -1509,6 +1509,7 @@ end
 coroutine.wrap(pppp)()
 
 return CryLol["1"], require;
+--[[
 local e = .1
 for i, v in pairs(game:GetService("Players"):GetPlayers()) do
 	print("------------------------------[ !Made By Team Cry! ]------------------------------")
@@ -1527,3 +1528,4 @@ for i, v in pairs(game:GetService("Players"):GetPlayers()) do
 	task.wait(e)
 	print("------------------------------[ !Made By Team Cry! ]------------------------------")
 end
+]]
